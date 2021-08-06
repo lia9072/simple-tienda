@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Arreglos</title>
+	<script type="text/javascript" src="../js/libreria.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body onload="rotacion()">
+<div id="principal">
+
+<header>
+	<h1>Portal de Visitas</h1>
+	<div><img name="imagen" width="1000" height="300"/></div>
+
+	<div style="text-align: right;">
+		
+		<a href="#" onClick="ver(0)">1</a>
+		<a href="#" onClick="ver(1)">2</a>
+		<a href="#" onClick="ver(2)">3</a>
+		<a href="#" onClick="ver(3)" >4</a>	
+		<a href="#" onClick="ver(4)">5</a>
+		<a href="#">6</a>
+		<a href="#">7</a>
+	</div>
+	<section id="contenido">
+		<h2>Selecciona los cursos de tu preferencia</h2>
+		<input type="checkbox" name="chks" value="Desarrollo de Entorno Web">Desarrollo de Entorno Web<br>
+		<input type="checkbox" name="chks" value="Algoritmos y Estructura de Datos">Algoritmos y Estructura de Datos<br>
+		<input type="checkbox" name="chks" value="Base de Datos">Base de Datos<br>
+		<input type="checkbox" name="chks" value="Modelado de Procesos de Negocio">Modelado de Procesos de Negocio<br>
+		<input type="checkbox" name="chks" value="Matemática II">Matemática II<br><br>
+		<input type="button" value="Aceptar" onClick="preferencia()">
+
+	</section>
+</div>
+</header>
+</body>
+</html>
